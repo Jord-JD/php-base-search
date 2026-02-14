@@ -1,22 +1,29 @@
 {
-    "name": "divineomega/php-base-search",
-    "description": "Base interfaces/classes for searcher and search results",
-    "type": "library",
-    "license": "LGPL-3.0-only",
-    "authors": [
-        {
-            "name": "Jordan Hall",
-            "email": "jordan@hall05.co.uk"
-        }
-    ],
-    "require": {
-        "php": ">=7.1"
-    },
-    "require-dev": {
-    },
-    "autoload": {
-        "psr-4": {
-            "DivineOmega\\BaseSearch\\": "src/"
-        }
+  "name": "jord-jd/php-base-search",
+  "description": "Base interfaces/classes for searcher and search results",
+  "type": "library",
+  "license": "LGPL-3.0-only",
+  "authors": [
+    {
+      "name": "Jordan Hall",
+      "email": "jordan@hall05.co.uk"
     }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "DivineOmega\\BaseSearch\\": "src/"
+    }
+  },
+  "replace": {
+    "divineomega/php-base-search": "self.version"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0-dev"
+    }
+  }
 }
