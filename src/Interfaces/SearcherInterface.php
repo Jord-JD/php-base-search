@@ -1,6 +1,6 @@
 <?php
 
-namespace DivineOmega\BaseSearch\Interfaces;
+namespace JordJD\BaseSearch\Interfaces;
 
 interface SearcherInterface
 {
